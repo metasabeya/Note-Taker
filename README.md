@@ -7,17 +7,9 @@
 
  ## Description of the application
 
- This application is called Note-Taker , it is used
- 
-  to write, save and delate notes. It use an express
-  
-   backend and save and retrive note data from JSON 
-   
-   file.
+ This application is called Note-Taker , it is used to write, save and delate notes. It use an express backend and save and retrive note data from JSON   file.
 
-This application have a 'db.json' file on the backend that used to store and retrive notes using the 'fs' 
- 
- module.
+.This application have a 'db.json' file on the backend that used to store and retrive notes using the 'fs'  module.
 
 It include different HTML routes like 
 
@@ -63,7 +55,7 @@ It also include API routes
 
 
 
-HEroku deployed link:
+Heroku deployed link:
 
 GIthub link:https://github.com/metasabeya/Note-Taker.git
 
