@@ -1,12 +1,15 @@
+//to make express interact with the Front-End
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-
+//for the express server
 const app = express();
+//the initial port for the server
 const port = 7001;
 const mainDir = path.join(__dirname, "/public");
+//seting up body parsing, static 
 
-app.use(express.static('public'));
+app.use(express.static("public"));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
@@ -56,7 +59,7 @@ app.delete("/api/notes/:id", function(req, res) {
     fs.writeFileSync("./db/db.json", JSON.stringify(savedNotes));
     res.json(savedNotes);
 })
-
+//to start the server on the port
 app.listen(port, function() {
     console.log(`Now listening to port ${port}`);
 })
