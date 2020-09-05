@@ -1,5 +1,6 @@
 # Note-Taker
  
+![Screenshot (220)](https://user-images.githubusercontent.com/65740871/92315290-9ca3ae80-efa0-11ea-917c-e9d6b7ce69f6.png)
 
  ## Description of the application
 
