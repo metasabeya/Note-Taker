@@ -5,7 +5,7 @@ const fs = require("fs");
 //for the express server
 const app = express();
 //the initial port for the server
-const PORT = process.env.PORT || 7001;
+const port= process.env.PORT || 7001;
 const mainDir = path.join(__dirname, "/public");
 //seting up body parsing, static 
 
