@@ -55,7 +55,7 @@ It also include API routes
 
 
 
-Heroku deployed link:
+Heroku deployed link: https://note-taker-mk.herokuapp.com/
 
 GIthub link:https://github.com/metasabeya/Note-Taker.git
 
